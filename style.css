@@ -694,13 +694,15 @@ body {
 .services {
     padding: 60px 0px;
 }
-.services-content span{
+
+.services-content span {
     text-transform: uppercase;
     color: #fe235b;
     margin-bottom: 8px;
     font-weight: 700;
     font-size: 14px;
 }
+
 .services-content h2 {
     margin-bottom: 0;
     color: #130947;
@@ -709,6 +711,7 @@ body {
     font-weight: 700;
     margin-bottom: 40px;
 }
+
 .services .icon-box {
     text-align: center;
     border: 1px solid #d5e1ed;
@@ -784,4 +787,37 @@ body {
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
     color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# WHY YOU CHOOSE US
+--------------------------------------------------------------*/
+.why-choose-us-content {
+    background-color: #043d72;
+    background-image: url(img/banner/bg-black.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.choose-content span {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+}
+
+.choose-content h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    line-height: 1.3;
+    font-size: 42px;
+    font-weight: 700;
 }

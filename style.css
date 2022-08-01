@@ -794,8 +794,10 @@ body {
 # WHY YOU CHOOSE US
 --------------------------------------------------------------*/
 .choose-us {
-    padding: 60px 0px;
+    padding-bottom: 60px;
+    padding-top: 0px;
 }
+
 .why-choose-us-content {
     background-color: #043d72;
     background-image: url(img/banner/bg-black.jpg);
@@ -807,10 +809,12 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
-.carousel-item img{
+
+.carousel-item img {
     width: 100%;
     height: 784px;
 }
+
 .choose-content span {
     text-transform: uppercase;
     color: #ffffff;
@@ -847,10 +851,12 @@ body {
     font-size: 25px;
     transition: 0.5s;
 }
+
 .choose-features-items i:hover {
     background-color: #fe235b;
     color: white;
 }
+
 .choose-features-items span {
     text-transform: uppercase;
     display: block;
@@ -858,4 +864,180 @@ body {
     margin-bottom: 7px;
     font-size: 17px;
     font-weight: 800;
+}
+
+/*--------------------------------------------------------------
+# Appointments
+--------------------------------------------------------------*/
+.appointment {
+    padding-bottom: 60px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #130947;
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.section-title p {
+    color: #6d7a8c;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.appointment .php-email-form {
+    width: 100%;
+}
+
+.appointment .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.appointment .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.appointment .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.appointment .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+
+.appointment .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.appointment .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.appointment .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.appointment .php-email-form input,
+.appointment .php-email-form textarea,
+.appointment .php-email-form select {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 10px !important;
+}
+
+.appointment .php-email-form input:focus,
+.appointment .php-email-form textarea:focus,
+.appointment .php-email-form select:focus {
+    border-color: #1977cc;
+}
+
+.appointment .php-email-form input,
+.appointment .php-email-form select {
+    height: 44px;
+}
+
+.appointment .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.appointment .php-email-form button[type=submit] {
+    background: #1977cc;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.appointment .php-email-form button[type=submit]:hover {
+    background: #1c84e3;
+}
+
+
+/*--------------------------------------------------------------
+# Emergency Medical
+--------------------------------------------------------------*/
+.Emergency {
+    background-color: #fe235b;
+    background-image: url(img/banner/cta-bg.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.Emergency::before {
+    content: '';
+    position: absolute;
+    background-image: url(img/banner/bg-overlay.png);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.icons {
+    margin-bottom: 8px;
+}
+
+.emergency-contact h2 {
+    color: #ffffff;
+    line-height: 1.3;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.emergency-contact p {
+    color: #ffffff;
+    margin-top: 12px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    font-size: 16.5px;
+}
+.emergency-contact a {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
 }
